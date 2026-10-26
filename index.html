@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b16">
+  <meta name="description" content="Enter the world of Techfest, IIT Bombay. Discover technology, competitions, workshops and ideas shaping tomorrow.">
+  <title>TECHFEST 2026–27 — The Future Is Unfinished</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Loading">
+    <div class="loader-mark">TF<span>®</span></div>
+    <div class="loader-line"><span></span></div>
+    <p>INITIALISING THE FUTURE</p>
+  </div>
+
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <header class="nav" id="navbar">
+    <a href="#home" class="brand" aria-label="Techfest home">
+      <span class="brand-symbol">T<span>F</span></span>
+      <span class="brand-copy">TECHFEST<small>IIT BOMBAY · 2026–27</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation"
+      aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#manifesto">VISION</a>
+      <a href="#frontiers">FRONTIERS</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#journey">JOURNEY</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <a href="#register" class="nav-cta">ENTER TECHFEST <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-backdrop parallax" data-speed="-0.12" aria-hidden="true">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="orb orb-three"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="star-field" id="starField"></div>
+        <div class="hero-halo"></div>
+      </div>
+
+      <div class="hero-index">
+        <span class="live-dot"></span> THE NEXT CHAPTER IS LOADING
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal">IIT BOMBAY PRESENTS · EST. 1998</p>
+        <h1 class="hero-title reveal">
+          THE FUTURE<br>
+          IS <span class="outline-word">UNFINISHED<span class="title-period">.</span></span>
+        </h1>
+
+        <div class="hero-bottom reveal">
+          <p class="hero-description">
+            A meeting point for impossible questions, radical experiments
+            and the minds determined to make tomorrow real.
+          </p>
+          <div class="hero-actions">
+            <a href="#frontiers" class="button button-light">Explore the unknown <span>↘</span></a>
+            <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer"
+              class="text-link">Official Techfest ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-vertical">SCIENCE / TECHNOLOGY / HUMAN POSSIBILITY</div>
+
+      <div class="hero-bottom-meta">
+        <span>POWAI, MUMBAI · INDIA</span>
+        <span class="scroll-indicator">SCROLL TO EXPLORE <b>↓</b></span>
+        <span>EDITION 30 / 2026–27</span>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Festival themes">
+      <div class="ticker-track">
+        <span>THINK BEYOND</span><i>✳</i><span>BUILD WHAT'S NEXT</span><i>✳</i>
+        <span>QUESTION EVERYTHING</span><i>✳</i><span>THINK BEYOND</span><i>✳</i>
+        <span>BUILD WHAT'S NEXT</span><i>✳</i><span>QUESTION EVERYTHING</span><i>✳</i>
+      </div>
+    </div>
+
+    <section class="manifesto section-pad" id="manifesto">
+      <div class="section-label reveal"><span>01 / THE IDEA</span><span>MORE THAN A FESTIVAL</span></div>
+      <div class="manifesto-grid">
+        <div class="manifesto-aside reveal">
+          <div class="mini-stamp">AN OPEN INVITATION<br>TO THE CURIOUS</div>
+          <p>For the ones who don't stop at “what if?”</p>
+          <span class="aside-arrow">↘</span>
+        </div>
+        <div class="manifesto-main reveal">
+          <h2>Curiosity is not<br>a spectator sport<span class="lime">.</span></h2>
+          <p>
+            Born at IIT Bombay, Techfest brings together learners, makers,
+            competitors and visionaries around a shared instinct: to push
+            beyond what already exists. From engineering challenges to
+            hands-on learning, this is where ideas meet the real world.
+          </p>
+          <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer"
+            class="underlined-link">Discover Techfest officially <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="stats-grid reveal">
+        <article class="stat-card">
+          <span class="stat-index">01 / LEGACY</span>
+          <strong data-count="1998">1998</strong>
+          <span>FOUNDING YEAR</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-index">02 / DISCIPLINES</span>
+          <strong>∞</strong>
+          <span>WAYS TO EXPLORE</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-index">03 / LOCATION</span>
+          <strong>01<span class="stat-small"> CAMPUS</span></strong>
+          <span>IIT BOMBAY · POWAI</span>
+        </article>
+      </div>
+      <p class="stats-note">A snapshot of the festival's legacy and spirit, not live attendance figures.</p>
+    </section>
+
+    <section class="frontiers section-pad" id="frontiers">
+      <div class="section-label reveal"><span>02 / THE FRONTIERS</span><span>CHOOSE YOUR CURIOSITY</span></div>
+      <div class="section-heading reveal">
+        <h2>Pick a frontier<span class="lime">.</span></h2>
+        <p>Different disciplines. One instinct to discover.</p>
+      </div>
+
+      <div class="filter-row reveal" role="group" aria-label="Filter frontiers">
+        <button class="filter-chip active" data-filter="all">ALL AREAS <span>06</span></button>
+        <button class="filter-chip" data-filter="build">BUILD</button>
+        <button class="filter-chip" data-filter="think">THINK</button>
+        <button class="filter-chip" data-filter="experience">EXPERIENCE</button>
+      </div>
+
+      <div class="frontier-grid" id="frontierGrid">
+        <article class="frontier-card card-coral reveal" data-category="build">
+          <div class="card-top"><span>F / 01</span><span class="card-symbol">↗</span></div>
+          <div class="abstract-art art-robot" aria-hidden="true">
+            <div class="robot-ring"></div><div class="robot-core"></div>
+            <div class="robot-arm"></div><div class="robot-arm arm-two"></div>
+          </div>
+          <div class="card-content">
+            <span class="card-kicker">ENGINEERING / ROBOTICS</span>
+            <h3>Machines<br>with a mission.</h3>
+            <p>Test engineering, automation and problem-solving through technical challenges.</p>
+            <a href="https://techfest.org/competitions" target="_blank" rel="noopener noreferrer">Explore competitions <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="frontier-card card-lilac reveal" data-category="think">
+          <div class="card-top"><span>F / 02</span><span class="card-symbol">↗</span></div>
+          <div class="abstract-art art-ai" aria-hidden="true">
+            <div class="ai-grid"></div><div class="ai-eye"></div>
+            <span class="ai-code">01<br>10<br>11</span>
+          </div>
+          <div class="card-content">
+            <span class="card-kicker">ARTIFICIAL INTELLIGENCE</span>
+            <h3>Teach ideas<br>to think.</h3>
+            <p>Explore computational thinking, AI-driven creativity and intelligent systems.</p>
+            <a href="https://techfest.org/competitions" target="_blank" rel="noopener noreferrer">Find challenges <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="frontier-card card-blue reveal" data-category="build">
+          <div class="card-top"><span>F / 03</span><span class="card-symbol">↗</span></div>
+          <div class="abstract-art art-code" aria-hidden="true">
+            <div class="code-window"><span>● ● ●</span><b>&lt;/&gt;</b><i>BUILD_01</i></div>
+            <div class="code-orbit"></div>
+          </div>
+          <div class="card-content">
+            <span class="card-kicker">CODING / SOFTWARE</span>
+            <h3>Make the<br>abstract work.</h3>
+            <p>Turn logic into products, systems and solutions to meaningful problems.</p>
+            <a href="https://techfest.org/competitions" target="_blank" rel="noopener noreferrer">Explore competitions <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="frontier-card card-yellow reveal" data-category="think">
+          <div class="card-top"><span>F / 04</span><span class="card-symbol">↗</span></div>
+          <div class="abstract-art art-ideas" aria-hidden="true">
+            <div class="idea-shape shape-one"></div><div class="idea-shape shape-two"></div>
+            <div class="idea-shape shape-three"></div><div class="idea-cross">+</div>
+          </div>
+          <div class="card-content">
+            <span class="card-kicker">INNOVATION / DESIGN</span>
+            <h3>Question the<br>obvious.</h3>
+            <p>Challenge assumptions and develop new approaches to familiar problems.</p>
+            <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer">Explore the festival <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="frontier-card card-green reveal" data-category="experience">
+          <div class="card-top"><span>F / 05</span><span class="card-symbol">↗</span></div>
+          <div class="abstract-art art-workshop" aria-hidden="true">
+            <div class="workshop-block block-one"></div><div class="workshop-block block-two"></div>
+            <div class="workshop-beam"></div><div class="workshop-dot"></div>
+          </div>
+          <div class="card-content">
+            <span class="card-kicker">WORKSHOPS / LEARNING</span>
+            <h3>Learn it.<br>Make it real.</h3>
+            <p>Build practical skills with structured, hands-on learning experiences.</p>
+            <a href="https://techfest.org/workshops" target="_blank" rel="noopener noreferrer">Explore workshops <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="frontier-card card-pink reveal" data-category="experience">
+          <div class="card-top"><span>F / 06</span><span class="card-symbol">↗</span></div>
+          <div class="abstract-art art-stage" aria-hidden="true">
+            <div class="stage-disc"></div><div class="stage-ray ray-one"></div>
+            <div class="stage-ray ray-two"></div><div class="stage-floor"></div>
+          </div>
+          <div class="card-content">
+            <span class="card-kicker">SHOWCASES / FESTIVAL</span>
+            <h3>See what's<br>possible.</h3>
+            <p>Discover the wider festival atmosphere, showcases and shared experiences.</p>
+            <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer">Discover more <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="grid-footnote">Illustrative areas of interest. Confirm current event names, eligibility and schedules on the official website.</p>
+    </section>
+
+    <section class="experience section-pad" id="experience">
+      <div class="section-label reveal"><span>03 / BEYOND THE SCREEN</span><span>IDEAS IN MOTION</span></div>
+      <div class="experience-layout">
+        <div class="experience-copy reveal">
+          <span class="eyebrow">THE CAMPUS BECOMES A LAB</span>
+          <h2>Don't just<br>read about it.<br><span>Experience it.</span></h2>
+          <p>
+            Technology becomes more meaningful when you can question it,
+            test it, watch it work and talk to the people building it.
+            Explore the current programme to plan your festival experience.
+          </p>
+          <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer"
+            class="button button-lime">Explore official programme <span>↗</span></a>
+        </div>
+
+        <div class="experience-art parallax" data-speed="0.08" aria-label="Abstract layered festival artwork">
+          <div class="exp-circle circle-back"></div>
+          <div class="exp-circle circle-mid"></div>
+          <div class="exp-circle circle-front"></div>
+          <div class="exp-slice"></div>
+          <div class="exp-cross">+</div>
+          <div class="exp-caption"><span>IDEAS → EXPERIMENTS</span><span>EXPERIMENTS → IMPACT</span></div>
+          <div class="exp-number">TF<br>30</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section-pad" id="journey">
+      <div class="section-label reveal"><span>04 / YOUR NEXT MOVE</span><span>FROM CURIOSITY TO ACTION</span></div>
+      <div class="section-heading reveal">
+        <h2>Make it happen<span class="lime">.</span></h2>
+        <p>A simple route from discovery to participation.</p>
+      </div>
+      <div class="journey-list">
+        <article class="journey-item reveal">
+          <span class="journey-number">01</span>
+          <div><span class="card-kicker">DISCOVER</span><h3>Find your challenge.</h3>
+            <p>Browse the official competition, workshop and event listings.</p></div>
+          <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" aria-label="Discover official events">↗</a>
+        </article>
+        <article class="journey-item reveal">
+          <span class="journey-number">02</span>
+          <div><span class="card-kicker">PREPARE</span><h3>Read the details.</h3>
+            <p>Check eligibility, deadlines, rules, fees where applicable and required materials.</p></div>
+          <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" aria-label="Read official details">↗</a>
+        </article>
+        <article class="journey-item reveal">
+          <span class="journey-number">03</span>
+          <div><span class="card-kicker">PARTICIPATE</span><h3>Take the next step.</h3>
+            <p>Register using the official route for your selected event or programme.</p></div>
+          <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" aria-label="Visit official registration">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="register-section" id="register">
+      <div class="register-orbit orbit-a" aria-hidden="true"></div>
+      <div class="register-orbit orbit-b" aria-hidden="true"></div>
+      <div class="register-content reveal">
+        <span class="eyebrow"><span class="live-dot"></span> YOUR NEXT CHAPTER STARTS HERE</span>
+        <h2>What will<br><span>you make</span><br>possible?</h2>
+        <p>Explore the official Techfest website and find the opportunity that matches your curiosity.</p>
+        <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer"
+          class="button button-light register-button">Step into Techfest <span>↗</span></a>
+        <span class="register-note">OFFICIAL DETAILS · EVENTS · REGISTRATION</span>
+      </div>
+      <div class="register-watermark" aria-hidden="true">TF</div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq">
+      <div class="section-label reveal"><span>05 / GOOD TO KNOW</span><span>THE ESSENTIALS</span></div>
+      <div class="faq-layout">
+        <div class="faq-intro reveal">
+          <h2>Questions?<br>Good<span class="lime">.</span></h2>
+          <p>Make informed decisions before signing up.</p>
+          <a href="https://techfest.org/" target="_blank" rel="noopener noreferrer" class="underlined-link">Visit official Techfest <span>↗</span></a>
+        </div>
+        <div class="faq-list reveal">
+          <article class="faq-item open">
+            <button class="faq-question" aria-expanded="true">What is Techfest, IIT Bombay?<span>−</span></button>
+            <div class="faq-answer"><p>Techfest is IIT Bombay's annual science and technology festival, featuring technical competitions, workshops and other experiences. Check the official website for the current edition's programme.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">Who can participate?<span>+</span></button>
+            <div class="faq-answer"><p>Eligibility varies by activity. Review the rules for your selected event or workshop before registering.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">Where can I find event dates?<span>+</span></button>
+            <div class="faq-answer"><p>Use the official Techfest website for the latest confirmed dates, venues, deadlines and changes.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">How do I register?<span>+</span></button>
+            <div class="faq-answer"><p>Open the official event listing and follow its registration instructions. Make sure you submit the requested information before the applicable deadline.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">Are all events free?<span>+</span></button>
+            <div class="faq-answer"><p>Do not assume that every activity has the same fee. Check the current listing for participation costs, inclusions and other conditions.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a href="#home" class="brand footer-brand">
+        <span class="brand-symbol">T<span>F</span></span>
+        <span class="brand-copy">TECHFEST<small>IIT BOMBAY · 2026–27</small></span>
+      </a>
+      <p>THE FUTURE IS<br><span>UNFINISHED.</span></p>
+      <a class="footer-visit" href="https://techfest.org/" target="_blank" rel="noopener noreferrer">TECHFEST.ORG ↗</a>
+    </div>
+    <div class="footer-bottom">
+      <span>DESIGNED FOR THE CURIOUS.</span>
+      <span>CONCEPT WEBSITE · NOT AN OFFICIAL IIT BOMBAY PUBLICATION</span>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+    <p class="credit">Concept &amp; implementation: Nihar Tiwari</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
